@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+		<meta charset="utf-8">
+		<script src="sayHello.js"></script>
+		<title>Angular App</title>
+	</head>
+	<body>
+	<div ng-app>
+		<label>Teszt név</label>
+		<input type="text" name="teszt" id="teszt" placeholder="tesztNév" ng-model="teszt" />
+		<hr />
+		<h1>Hello {{ teszt }}</h1>
+	</div>
+	</body>
+</html>
