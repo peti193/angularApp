@@ -2,6 +2,7 @@ function TodoCtrl ($scope) {
 	$scope.todos = [
 		{text:'Le kell hátul fűnyírózni' , done:true},
 		{text:'Vissza kell utazni Pestre' ,done:false}
+		{text:'Utazni a balatonra' ,done:true}
 	];
 
 	$scope.addTodo = function() {
